@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		261B02EF22887F1F00C629CF /* blackOutScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B02EE22887F1F00C629CF /* blackOutScene.swift */; };
+		261B02F122898E9F00C629CF /* PostGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B02F022898E9F00C629CF /* PostGameScene.swift */; };
+		261B02F3228A2A0500C629CF /* GSPGS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B02F2228A2A0500C629CF /* GSPGS.swift */; };
+		261B02F5228A730600C629CF /* GameWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B02F4228A730600C629CF /* GameWin.swift */; };
+		261B02F7228A753400C629CF /* PGSGW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B02F6228A753400C629CF /* PGSGW.swift */; };
+		261B02F9228B81F000C629CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B02F8228B81F000C629CF /* Constants.swift */; };
+		264342D12284A6E100ED31A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264342D02284A6E100ED31A9 /* AppDelegate.swift */; };
+		264342D32284A6E100ED31A9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 264342D22284A6E100ED31A9 /* GameScene.sks */; };
+		264342D52284A6E100ED31A9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 264342D42284A6E100ED31A9 /* Actions.sks */; };
+		264342D72284A6E100ED31A9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264342D62284A6E100ED31A9 /* GameScene.swift */; };
+		264342D92284A6E100ED31A9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264342D82284A6E100ED31A9 /* GameViewController.swift */; };
+		264342DC2284A6E100ED31A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264342DA2284A6E100ED31A9 /* Main.storyboard */; };
+		264342DE2284A6E200ED31A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264342DD2284A6E200ED31A9 /* Assets.xcassets */; };
+		264342E12284A6E200ED31A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264342DF2284A6E200ED31A9 /* LaunchScreen.storyboard */; };
+		264342EC2284A6E200ED31A9 /* A_Lonely_StarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264342EB2284A6E200ED31A9 /* A_Lonely_StarTests.swift */; };
+		264342F72284A6E200ED31A9 /* A_Lonely_StarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264342F62284A6E200ED31A9 /* A_Lonely_StarUITests.swift */; };
+		264343052285323300ED31A9 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264343042285323300ED31A9 /* GameOverScene.swift */; };
+		26434307228840DC00ED31A9 /* preGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26434306228840DC00ED31A9 /* preGame.swift */; };
+		26434309228873B000ED31A9 /* gameExit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26434308228873B000ED31A9 /* gameExit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		264342E82284A6E200ED31A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264342C52284A6E100ED31A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264342CC2284A6E100ED31A9;
+			remoteInfo = "A Lonely Star";
+		};
+		264342F32284A6E200ED31A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264342C52284A6E100ED31A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264342CC2284A6E100ED31A9;
+			remoteInfo = "A Lonely Star";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		261B02EE22887F1F00C629CF /* blackOutScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blackOutScene.swift; sourceTree = "<group>"; };
+		261B02F022898E9F00C629CF /* PostGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGameScene.swift; sourceTree = "<group>"; };
+		261B02F2228A2A0500C629CF /* GSPGS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSPGS.swift; sourceTree = "<group>"; };
+		261B02F4228A730600C629CF /* GameWin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWin.swift; sourceTree = "<group>"; };
+		261B02F6228A753400C629CF /* PGSGW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGSGW.swift; sourceTree = "<group>"; };
+		261B02F8228B81F000C629CF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		264342CD2284A6E100ED31A9 /* A Lonely Star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Lonely Star.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		264342D02284A6E100ED31A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		264342D22284A6E100ED31A9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		264342D42284A6E100ED31A9 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		264342D62284A6E100ED31A9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		264342D82284A6E100ED31A9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		264342DB2284A6E100ED31A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		264342DD2284A6E200ED31A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		264342E02284A6E200ED31A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		264342E22284A6E200ED31A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264342E72284A6E200ED31A9 /* A Lonely StarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A Lonely StarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		264342EB2284A6E200ED31A9 /* A_Lonely_StarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Lonely_StarTests.swift; sourceTree = "<group>"; };
+		264342ED2284A6E200ED31A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264342F22284A6E200ED31A9 /* A Lonely StarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A Lonely StarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		264342F62284A6E200ED31A9 /* A_Lonely_StarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Lonely_StarUITests.swift; sourceTree = "<group>"; };
+		264342F82284A6E200ED31A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264343042285323300ED31A9 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		26434306228840DC00ED31A9 /* preGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preGame.swift; sourceTree = "<group>"; };
+		26434308228873B000ED31A9 /* gameExit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameExit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		264342CA2284A6E100ED31A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264342E42284A6E200ED31A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264342EF2284A6E200ED31A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264342C42284A6E100ED31A9 = {
+			isa = PBXGroup;
+			children = (
+				264342CF2284A6E100ED31A9 /* A Lonely Star */,
+				264342EA2284A6E200ED31A9 /* A Lonely StarTests */,
+				264342F52284A6E200ED31A9 /* A Lonely StarUITests */,
+				264342CE2284A6E100ED31A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		264342CE2284A6E100ED31A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264342CD2284A6E100ED31A9 /* A Lonely Star.app */,
+				264342E72284A6E200ED31A9 /* A Lonely StarTests.xctest */,
+				264342F22284A6E200ED31A9 /* A Lonely StarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		264342CF2284A6E100ED31A9 /* A Lonely Star */ = {
+			isa = PBXGroup;
+			children = (
+				261B02F8228B81F000C629CF /* Constants.swift */,
+				264342DD2284A6E200ED31A9 /* Assets.xcassets */,
+				264342D82284A6E100ED31A9 /* GameViewController.swift */,
+				26434306228840DC00ED31A9 /* preGame.swift */,
+				264342D62284A6E100ED31A9 /* GameScene.swift */,
+				261B02EE22887F1F00C629CF /* blackOutScene.swift */,
+				261B02F2228A2A0500C629CF /* GSPGS.swift */,
+				261B02F022898E9F00C629CF /* PostGameScene.swift */,
+				261B02F6228A753400C629CF /* PGSGW.swift */,
+				261B02F4228A730600C629CF /* GameWin.swift */,
+				264343042285323300ED31A9 /* GameOverScene.swift */,
+				26434308228873B000ED31A9 /* gameExit.swift */,
+				264342D42284A6E100ED31A9 /* Actions.sks */,
+				264342DA2284A6E100ED31A9 /* Main.storyboard */,
+				264342DF2284A6E200ED31A9 /* LaunchScreen.storyboard */,
+				264342D02284A6E100ED31A9 /* AppDelegate.swift */,
+				264342D22284A6E100ED31A9 /* GameScene.sks */,
+				264342E22284A6E200ED31A9 /* Info.plist */,
+			);
+			path = "A Lonely Star";
+			sourceTree = "<group>";
+		};
+		264342EA2284A6E200ED31A9 /* A Lonely StarTests */ = {
+			isa = PBXGroup;
+			children = (
+				264342EB2284A6E200ED31A9 /* A_Lonely_StarTests.swift */,
+				264342ED2284A6E200ED31A9 /* Info.plist */,
+			);
+			path = "A Lonely StarTests";
+			sourceTree = "<group>";
+		};
+		264342F52284A6E200ED31A9 /* A Lonely StarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				264342F62284A6E200ED31A9 /* A_Lonely_StarUITests.swift */,
+				264342F82284A6E200ED31A9 /* Info.plist */,
+			);
+			path = "A Lonely StarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		264342CC2284A6E100ED31A9 /* A Lonely Star */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264342FB2284A6E200ED31A9 /* Build configuration list for PBXNativeTarget "A Lonely Star" */;
+			buildPhases = (
+				264342C92284A6E100ED31A9 /* Sources */,
+				264342CA2284A6E100ED31A9 /* Frameworks */,
+				264342CB2284A6E100ED31A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "A Lonely Star";
+			productName = "A Lonely Star";
+			productReference = 264342CD2284A6E100ED31A9 /* A Lonely Star.app */;
+			productType = "com.apple.product-type.application";
+		};
+		264342E62284A6E200ED31A9 /* A Lonely StarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264342FE2284A6E200ED31A9 /* Build configuration list for PBXNativeTarget "A Lonely StarTests" */;
+			buildPhases = (
+				264342E32284A6E200ED31A9 /* Sources */,
+				264342E42284A6E200ED31A9 /* Frameworks */,
+				264342E52284A6E200ED31A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264342E92284A6E200ED31A9 /* PBXTargetDependency */,
+			);
+			name = "A Lonely StarTests";
+			productName = "A Lonely StarTests";
+			productReference = 264342E72284A6E200ED31A9 /* A Lonely StarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		264342F12284A6E200ED31A9 /* A Lonely StarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264343012284A6E200ED31A9 /* Build configuration list for PBXNativeTarget "A Lonely StarUITests" */;
+			buildPhases = (
+				264342EE2284A6E200ED31A9 /* Sources */,
+				264342EF2284A6E200ED31A9 /* Frameworks */,
+				264342F02284A6E200ED31A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264342F42284A6E200ED31A9 /* PBXTargetDependency */,
+			);
+			name = "A Lonely StarUITests";
+			productName = "A Lonely StarUITests";
+			productReference = 264342F22284A6E200ED31A9 /* A Lonely StarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264342C52284A6E100ED31A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = WackyClown;
+				TargetAttributes = {
+					264342CC2284A6E100ED31A9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					264342E62284A6E200ED31A9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 264342CC2284A6E100ED31A9;
+					};
+					264342F12284A6E200ED31A9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 264342CC2284A6E100ED31A9;
+					};
+				};
+			};
+			buildConfigurationList = 264342C82284A6E100ED31A9 /* Build configuration list for PBXProject "A Lonely Star" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 264342C42284A6E100ED31A9;
+			productRefGroup = 264342CE2284A6E100ED31A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				264342CC2284A6E100ED31A9 /* A Lonely Star */,
+				264342E62284A6E200ED31A9 /* A Lonely StarTests */,
+				264342F12284A6E200ED31A9 /* A Lonely StarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		264342CB2284A6E100ED31A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264342DC2284A6E100ED31A9 /* Main.storyboard in Resources */,
+				264342D32284A6E100ED31A9 /* GameScene.sks in Resources */,
+				264342DE2284A6E200ED31A9 /* Assets.xcassets in Resources */,
+				264342E12284A6E200ED31A9 /* LaunchScreen.storyboard in Resources */,
+				264342D52284A6E100ED31A9 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264342E52284A6E200ED31A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264342F02284A6E200ED31A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264342C92284A6E100ED31A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264342D72284A6E100ED31A9 /* GameScene.swift in Sources */,
+				264342D92284A6E100ED31A9 /* GameViewController.swift in Sources */,
+				261B02F5228A730600C629CF /* GameWin.swift in Sources */,
+				261B02EF22887F1F00C629CF /* blackOutScene.swift in Sources */,
+				26434307228840DC00ED31A9 /* preGame.swift in Sources */,
+				261B02F122898E9F00C629CF /* PostGameScene.swift in Sources */,
+				261B02F3228A2A0500C629CF /* GSPGS.swift in Sources */,
+				264343052285323300ED31A9 /* GameOverScene.swift in Sources */,
+				261B02F7228A753400C629CF /* PGSGW.swift in Sources */,
+				264342D12284A6E100ED31A9 /* AppDelegate.swift in Sources */,
+				26434309228873B000ED31A9 /* gameExit.swift in Sources */,
+				261B02F9228B81F000C629CF /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264342E32284A6E200ED31A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264342EC2284A6E200ED31A9 /* A_Lonely_StarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264342EE2284A6E200ED31A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264342F72284A6E200ED31A9 /* A_Lonely_StarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		264342E92284A6E200ED31A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264342CC2284A6E100ED31A9 /* A Lonely Star */;
+			targetProxy = 264342E82284A6E200ED31A9 /* PBXContainerItemProxy */;
+		};
+		264342F42284A6E200ED31A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264342CC2284A6E100ED31A9 /* A Lonely Star */;
+			targetProxy = 264342F32284A6E200ED31A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		264342DA2284A6E100ED31A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264342DB2284A6E100ED31A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		264342DF2284A6E200ED31A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264342E02284A6E200ED31A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		264342F92284A6E200ED31A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		264342FA2284A6E200ED31A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		264342FC2284A6E200ED31A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJ2JMZ83G;
+				INFOPLIST_FILE = "A Lonely Star/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WackyClown.A-Lonely-Star";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		264342FD2284A6E200ED31A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJ2JMZ83G;
+				INFOPLIST_FILE = "A Lonely Star/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WackyClown.A-Lonely-Star";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		264342FF2284A6E200ED31A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJ2JMZ83G;
+				INFOPLIST_FILE = "A Lonely StarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WackyClown.A-Lonely-StarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A Lonely Star.app/A Lonely Star";
+			};
+			name = Debug;
+		};
+		264343002284A6E200ED31A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJ2JMZ83G;
+				INFOPLIST_FILE = "A Lonely StarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WackyClown.A-Lonely-StarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A Lonely Star.app/A Lonely Star";
+			};
+			name = Release;
+		};
+		264343022284A6E200ED31A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJ2JMZ83G;
+				INFOPLIST_FILE = "A Lonely StarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WackyClown.A-Lonely-StarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "A Lonely Star";
+			};
+			name = Debug;
+		};
+		264343032284A6E200ED31A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJ2JMZ83G;
+				INFOPLIST_FILE = "A Lonely StarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WackyClown.A-Lonely-StarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "A Lonely Star";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264342C82284A6E100ED31A9 /* Build configuration list for PBXProject "A Lonely Star" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264342F92284A6E200ED31A9 /* Debug */,
+				264342FA2284A6E200ED31A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264342FB2284A6E200ED31A9 /* Build configuration list for PBXNativeTarget "A Lonely Star" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264342FC2284A6E200ED31A9 /* Debug */,
+				264342FD2284A6E200ED31A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264342FE2284A6E200ED31A9 /* Build configuration list for PBXNativeTarget "A Lonely StarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264342FF2284A6E200ED31A9 /* Debug */,
+				264343002284A6E200ED31A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264343012284A6E200ED31A9 /* Build configuration list for PBXNativeTarget "A Lonely StarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264343022284A6E200ED31A9 /* Debug */,
+				264343032284A6E200ED31A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 264342C52284A6E100ED31A9 /* Project object */;
+}
