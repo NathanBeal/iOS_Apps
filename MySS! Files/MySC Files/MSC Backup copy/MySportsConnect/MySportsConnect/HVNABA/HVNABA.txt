@@ -1,0 +1,5 @@
+Premier.Intermediate.Recreational.Twilight
+Angels.Athletics.Black Sox.Cardinals.Cubs.Giants.Mariners.Marlins.Pirates.Rockies.Royals.Yankees
+Athletics.Astros.Blue Jays.Cubs.Mets.Nationals.Red Sox.Yankees
+Astros.Athletics.Devil Rays.Diamondbacks.Expos.Indians.Knights.Mariners.Mets.Orioles.Padres.Phillies.Rangers.Rockies.Royals.Twins.White Sox.Yankees
+Angels.Black Sox.Brewers.Phillies.Rockies.Royals.Tigers.Twins

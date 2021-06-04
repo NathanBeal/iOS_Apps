@@ -1,0 +1,10 @@
+CubsBlue.CubsRed
+Sunday.9:00 AM.7/14.Creek Road.Red Sox
+Sunday.12:00 PM.7/14.Creek Road.Red Sox
+Sunday.9:00 AM.7/21.Newburgh.Yankees
+Sunday.12:30 PM.7/28.Tony Williams Park.Athletics
+Sunday.3:30 PM.7/28.Tony Williams Park.Athletics
+Sunday.9:00 AM.8/4.Newburgh.Astros
+Sunday.9:00 AM.8/11.Newburgh.Nationals
+Sunday.9:00 AM.8/18.Newburgh.Yankees
+Sunday.9:00 AM.8/25.Newburgh.Athletics

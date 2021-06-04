@@ -1,0 +1,7 @@
+RaysNavy.RaysLightBlue
+Sunday.4:00 PM.7/28.Robinson Lane.WhiteSox
+Sunday.9:00 AM.8/4.Delano Hitch Stadium.Phillies
+Sunday.7:30 PM.8/11.Delano Hitch Stadium.Rockies
+Sunday.9:00 AM.8/18.Delano Hitch Stadium.Athletics
+Sunday.12:30 PM.8/18.Delano Hitch Stadium.Yankees
+Sunday.9:00 AM.8/25.Delano Hitch Stadium.Astros

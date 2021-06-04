@@ -1,0 +1,10 @@
+RedSoxRed.White
+Saturday.1:00 PM.7/13.Robinson Lane.Athletics
+Sunday.9:00 AM.7/14.Creek Road.Cubs
+Sunday.12:00 PM.7/14.Creek Road.Cubs
+Sunday.4:00 PM.7/21.Robinson Lane.Blue Jays
+Sunday.9:00 AM.7/28.Creek Road.Mets
+Sunday.1:00 PM.8/4.Cantine Field.Athletics
+Sunday.4:00 PM.8/11.Tony Williams Park.Astros
+Sunday.4:00 PM.8/18.Newburgh.Blue Jays
+Sunday.4:00 PM.8/25.Robinson Lane.Mets

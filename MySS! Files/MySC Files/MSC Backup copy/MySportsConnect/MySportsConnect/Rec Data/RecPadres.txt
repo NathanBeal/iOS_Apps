@@ -1,0 +1,6 @@
+PadresGray.PadresBlue
+Sunday.4:00 PM.7/28.Robinson Lane.Diamondbacks
+Sunday.4:00 PM.8/4.Robinson Lane.Astros
+Sunday.4:00 PM.8/11.Robinson Lane.Royals
+Sunday.9:00 AM.8/18.Creek Road.Expos
+Sunday.12:30 PM.8/25.Creek Road.White Sox

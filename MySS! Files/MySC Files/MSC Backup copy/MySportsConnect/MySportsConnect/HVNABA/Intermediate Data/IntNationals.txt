@@ -1,0 +1,8 @@
+NationalsRed.White
+Sunday.3:30 PM.7/14.Robinson Lane.Mets
+Sunday.4:00 PM.7/21.Tony Williams Park.Astros
+Sunday.12:30 PM.7/28.Cooperstown.Astros
+Sunday.9:00 AM.8/4.Robinson Lane.Blue Jays
+Sunday.9:00 AM.8/11.Newburgh.Cubs
+Sunday.9:00 AM.8/25.Robinson Lane.Yankees
+Sunday.12:30 PM.8/25.Robinson Lane.Yankess

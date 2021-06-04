@@ -1,0 +1,13 @@
+Name of document - League identifier + Team Name
+	- Ex. Premier Astros -> "PreAstros"
+	- Ex. Twilight Rockies -> "TwiRockies"
+	- The League Identifiers are "Pre", "Int", "Rec" and "Twi"
+
+First Line of code - Team Name + Main Color.Team Name + Secondary Color
+	- Ex. Astros -> Astros Orange -> "AstrosOrange.AstrosNavy"
+	- Period, ".", in the middle is important
+
+Every Line after first line -> "_____.______.______._______.__________"
+			        (Day).(Time).(Date).(Field).(Opponent)
+	- Ex. The Astros are playing on Sunday at 9:00 AM on July the 28th, at Cooperstown against the Nationals
+		-> Sunday.12:30 PM.7/28.Cooperstown.Nationals

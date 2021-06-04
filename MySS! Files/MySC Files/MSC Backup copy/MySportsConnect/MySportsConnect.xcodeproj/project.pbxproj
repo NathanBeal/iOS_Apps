@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2615C75822D3D16800108FAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615C75722D3D16800108FAA /* AppDelegate.swift */; };
+		2615C76022D3D16800108FAA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615C75F22D3D16800108FAA /* GameViewController.swift */; };
+		2615C76322D3D16800108FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2615C76122D3D16800108FAA /* Main.storyboard */; };
+		2615C76522D3D16900108FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2615C76422D3D16900108FAA /* Assets.xcassets */; };
+		2615C76822D3D16900108FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2615C76622D3D16900108FAA /* LaunchScreen.storyboard */; };
+		2615C77322D3D16900108FAA /* MySportsConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615C77222D3D16900108FAA /* MySportsConnectTests.swift */; };
+		2615C77E22D3D16A00108FAA /* MySportsConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615C77D22D3D16A00108FAA /* MySportsConnectUITests.swift */; };
+		2615C78C22D3D4E000108FAA /* MyTeams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615C78B22D3D4E000108FAA /* MyTeams.swift */; };
+		2615C78E22D432C100108FAA /* AddTeams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615C78D22D432C100108FAA /* AddTeams.swift */; };
+		2615C79022D4495600108FAA /* LocalTeamsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615C78F22D4495600108FAA /* LocalTeamsScene.swift */; };
+		2615C79422D44D3100108FAA /* RecActivitiesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615C79322D44D3100108FAA /* RecActivitiesScene.swift */; };
+		261ADF3F22D451BE007CF19E /* Divisions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261ADF3E22D451BE007CF19E /* Divisions.swift */; };
+		261ADF4122D4523D007CF19E /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261ADF4022D4523D007CF19E /* Teams.swift */; };
+		261ADF4322D557F8007CF19E /* IntAthletics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF4222D557F8007CF19E /* IntAthletics.txt */; };
+		261ADF4622D55D82007CF19E /* Team1HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261ADF4522D55D82007CF19E /* Team1HomePage.swift */; };
+		261ADF4822D55FBD007CF19E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261ADF4722D55FBD007CF19E /* Constants.swift */; };
+		261ADF4B22D59190007CF19E /* Team2HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261ADF4A22D59190007CF19E /* Team2HomePage.swift */; };
+		261ADF5322D591F4007CF19E /* IntRed Sox.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF5222D591F4007CF19E /* IntRed Sox.txt */; };
+		261ADF5522D59203007CF19E /* IntCubs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF5422D59203007CF19E /* IntCubs.txt */; };
+		261ADF5722D5920F007CF19E /* IntBlue Jays.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF5622D5920F007CF19E /* IntBlue Jays.txt */; };
+		261ADF5922D5921D007CF19E /* IntMets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF5822D5921D007CF19E /* IntMets.txt */; };
+		261ADF5D22D59245007CF19E /* IntYankees.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF5C22D59245007CF19E /* IntYankees.txt */; };
+		261ADF6122D59264007CF19E /* IntNationals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF6022D59264007CF19E /* IntNationals.txt */; };
+		261ADF6322D5927D007CF19E /* IntAstros.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF6222D5927D007CF19E /* IntAstros.txt */; };
+		261ADF6822D5935D007CF19E /* RecMets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF6722D5935D007CF19E /* RecMets.txt */; };
+		261ADF6A22D59369007CF19E /* RecOrioles.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF6922D59369007CF19E /* RecOrioles.txt */; };
+		261ADF6C22D59373007CF19E /* RecAthletics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF6B22D59373007CF19E /* RecAthletics.txt */; };
+		261ADF6E22D5937E007CF19E /* RecRangers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF6D22D5937E007CF19E /* RecRangers.txt */; };
+		261ADF7022D5938A007CF19E /* RecRoyals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF6F22D5938A007CF19E /* RecRoyals.txt */; };
+		261ADF7222D59395007CF19E /* RecTwins.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF7122D59395007CF19E /* RecTwins.txt */; };
+		261ADF7622D593AE007CF19E /* RecPadres.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF7522D593AE007CF19E /* RecPadres.txt */; };
+		261ADF7822D593BF007CF19E /* RecAstros.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF7722D593BF007CF19E /* RecAstros.txt */; };
+		261ADF7A22D593C9007CF19E /* RecIndians.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF7922D593C9007CF19E /* RecIndians.txt */; };
+		261ADF7C22D593E0007CF19E /* RecWhite Sox.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF7B22D593E0007CF19E /* RecWhite Sox.txt */; };
+		261ADF7E22D593F6007CF19E /* RecMariners.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF7D22D593F6007CF19E /* RecMariners.txt */; };
+		261ADF8022D59405007CF19E /* RecKnights.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF7F22D59405007CF19E /* RecKnights.txt */; };
+		261ADF8222D5940E007CF19E /* RecExpos.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF8122D5940E007CF19E /* RecExpos.txt */; };
+		261ADF8422D59424007CF19E /* RecYankees.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF8322D59424007CF19E /* RecYankees.txt */; };
+		261ADF8622D59431007CF19E /* RecDiamondbacks.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF8522D59431007CF19E /* RecDiamondbacks.txt */; };
+		261ADF8822D5943A007CF19E /* RecPhillies.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF8722D5943A007CF19E /* RecPhillies.txt */; };
+		261ADF8A22D59445007CF19E /* RecDevil Rays.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF8922D59445007CF19E /* RecDevil Rays.txt */; };
+		261ADF8C22D5945D007CF19E /* RecRockies.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF8B22D5945D007CF19E /* RecRockies.txt */; };
+		261ADF8E22D594AA007CF19E /* PreMariners.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF8D22D594AA007CF19E /* PreMariners.txt */; };
+		261ADF9022D594B9007CF19E /* PreBlack Sox.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF8F22D594B9007CF19E /* PreBlack Sox.txt */; };
+		261ADF9222D594C5007CF19E /* PreCardinals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF9122D594C5007CF19E /* PreCardinals.txt */; };
+		261ADF9422D594D0007CF19E /* PreCubs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF9322D594D0007CF19E /* PreCubs.txt */; };
+		261ADF9622D594E1007CF19E /* PreRockies.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF9522D594E1007CF19E /* PreRockies.txt */; };
+		261ADF9822D594F3007CF19E /* PreYankees.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF9722D594F3007CF19E /* PreYankees.txt */; };
+		261ADF9A22D594FB007CF19E /* PrePirates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF9922D594FB007CF19E /* PrePirates.txt */; };
+		261ADF9C22D59503007CF19E /* PreAthletics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF9B22D59503007CF19E /* PreAthletics.txt */; };
+		261ADF9E22D5950B007CF19E /* PreMarlins.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF9D22D5950B007CF19E /* PreMarlins.txt */; };
+		261ADFA022D5951D007CF19E /* PreAngels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADF9F22D5951D007CF19E /* PreAngels.txt */; };
+		261ADFA222D59526007CF19E /* PreRoyals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADFA122D59526007CF19E /* PreRoyals.txt */; };
+		261ADFA422D5952E007CF19E /* PreGiants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADFA322D5952E007CF19E /* PreGiants.txt */; };
+		261ADFA622D6D2C9007CF19E /* HVNABA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261ADFA522D6D2C9007CF19E /* HVNABA.txt */; };
+		261ADFAA22DD8B0C007CF19E /* Team3HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261ADFA922DD8B0C007CF19E /* Team3HomePage.swift */; };
+		261B4F7522ECECCF00C0D6D3 /* TeamsPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B4F7422ECECCF00C0D6D3 /* TeamsPage2.swift */; };
+		261B4F7722ECECD300C0D6D3 /* TeamsPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B4F7622ECECD300C0D6D3 /* TeamsPage3.swift */; };
+		261B4F7922ECECE100C0D6D3 /* TeamsPage4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B4F7822ECECE100C0D6D3 /* TeamsPage4.swift */; };
+		261B4F7B22EF97A200C0D6D3 /* Leagues.txt in Resources */ = {isa = PBXBuildFile; fileRef = 261B4F7A22EF97A200C0D6D3 /* Leagues.txt */; };
+		26A2EC9822E1808800424406 /* IntroCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2EC9722E1808800424406 /* IntroCard.swift */; };
+		26A2EC9A22E203A300424406 /* Team1ContactPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2EC9922E203A300424406 /* Team1ContactPage.swift */; };
+		26A2EC9C22E2074100424406 /* Team1Standings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2EC9B22E2074100424406 /* Team1Standings.swift */; };
+		26A2EC9E22E2157C00424406 /* Team2ContactPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2EC9D22E2157C00424406 /* Team2ContactPage.swift */; };
+		26A2ECA022E2159000424406 /* Team2Standings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2EC9F22E2159000424406 /* Team2Standings.swift */; };
+		26A2ECA222E671A400424406 /* MyTeamsFirstAppOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2ECA122E671A400424406 /* MyTeamsFirstAppOpen.swift */; };
+		26A2ECA422E6B1CF00424406 /* Team4HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2ECA322E6B1CF00424406 /* Team4HomePage.swift */; };
+		26A2ECA622E6B1E700424406 /* Team5HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2ECA522E6B1E700424406 /* Team5HomePage.swift */; };
+		26A2ECA822E7F72500424406 /* Leagues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2ECA722E7F72500424406 /* Leagues.swift */; };
+		26A2ECAA22E805F900424406 /* Team3Standings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2ECA922E805F900424406 /* Team3Standings.swift */; };
+		26A2ECAC22E8060600424406 /* Team3ContactPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2ECAB22E8060600424406 /* Team3ContactPage.swift */; };
+		26A2ECAE22E8061B00424406 /* Team4ContactPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2ECAD22E8061B00424406 /* Team4ContactPage.swift */; };
+		26A2ECB022E8062D00424406 /* Team4Standings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2ECAF22E8062D00424406 /* Team4Standings.swift */; };
+		26A2ECB222E8064E00424406 /* Team5Standings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2ECB122E8064E00424406 /* Team5Standings.swift */; };
+		26A2ECB422E8065A00424406 /* Team5ContactPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2ECB322E8065A00424406 /* Team5ContactPage.swift */; };
+		26BF78B622DEBAF700A6BEE8 /* MySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BF78B522DEBAF700A6BEE8 /* MySchedule.swift */; };
+		26EC364922EA934D00E5099A /* TwiRoyals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26EC364822EA934D00E5099A /* TwiRoyals.txt */; };
+		26EC364B22EA94F400E5099A /* TwiBlack Sox.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26EC364A22EA94F400E5099A /* TwiBlack Sox.txt */; };
+		26EC364D22EA95BC00E5099A /* TwiBrewers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26EC364C22EA95BC00E5099A /* TwiBrewers.txt */; };
+		26EC364F22EA969800E5099A /* TwiPhillies.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26EC364E22EA969800E5099A /* TwiPhillies.txt */; };
+		26EC365122EA979C00E5099A /* TwiTigers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26EC365022EA979C00E5099A /* TwiTigers.txt */; };
+		26EC365322EA992800E5099A /* TwiAngels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26EC365222EA992800E5099A /* TwiAngels.txt */; };
+		26EC365522EA99D300E5099A /* TwiRockies.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26EC365422EA99D300E5099A /* TwiRockies.txt */; };
+		26EC365722EA9A0A00E5099A /* TwiTwins.txt in Resources */ = {isa = PBXBuildFile; fileRef = 26EC365622EA9A0A00E5099A /* TwiTwins.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2615C76F22D3D16900108FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2615C74C22D3D16800108FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2615C75322D3D16800108FAA;
+			remoteInfo = MySportsConnect;
+		};
+		2615C77A22D3D16A00108FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2615C74C22D3D16800108FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2615C75322D3D16800108FAA;
+			remoteInfo = MySportsConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2615C75422D3D16800108FAA /* MySportsConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySportsConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2615C75722D3D16800108FAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2615C75F22D3D16800108FAA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2615C76222D3D16800108FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2615C76422D3D16900108FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2615C76722D3D16900108FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2615C76922D3D16900108FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2615C76E22D3D16900108FAA /* MySportsConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySportsConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2615C77222D3D16900108FAA /* MySportsConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySportsConnectTests.swift; sourceTree = "<group>"; };
+		2615C77422D3D16A00108FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2615C77922D3D16A00108FAA /* MySportsConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySportsConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2615C77D22D3D16A00108FAA /* MySportsConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySportsConnectUITests.swift; sourceTree = "<group>"; };
+		2615C77F22D3D16A00108FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2615C78B22D3D4E000108FAA /* MyTeams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeams.swift; sourceTree = "<group>"; };
+		2615C78D22D432C100108FAA /* AddTeams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeams.swift; sourceTree = "<group>"; };
+		2615C78F22D4495600108FAA /* LocalTeamsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTeamsScene.swift; sourceTree = "<group>"; };
+		2615C79322D44D3100108FAA /* RecActivitiesScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecActivitiesScene.swift; sourceTree = "<group>"; };
+		261ADF3E22D451BE007CF19E /* Divisions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divisions.swift; sourceTree = "<group>"; };
+		261ADF4022D4523D007CF19E /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		261ADF4222D557F8007CF19E /* IntAthletics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = IntAthletics.txt; sourceTree = "<group>"; };
+		261ADF4522D55D82007CF19E /* Team1HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team1HomePage.swift; sourceTree = "<group>"; };
+		261ADF4722D55FBD007CF19E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		261ADF4A22D59190007CF19E /* Team2HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team2HomePage.swift; sourceTree = "<group>"; };
+		261ADF5222D591F4007CF19E /* IntRed Sox.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "IntRed Sox.txt"; sourceTree = "<group>"; };
+		261ADF5422D59203007CF19E /* IntCubs.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = IntCubs.txt; sourceTree = "<group>"; };
+		261ADF5622D5920F007CF19E /* IntBlue Jays.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "IntBlue Jays.txt"; sourceTree = "<group>"; };
+		261ADF5822D5921D007CF19E /* IntMets.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = IntMets.txt; sourceTree = "<group>"; };
+		261ADF5C22D59245007CF19E /* IntYankees.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = IntYankees.txt; sourceTree = "<group>"; };
+		261ADF6022D59264007CF19E /* IntNationals.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = IntNationals.txt; sourceTree = "<group>"; };
+		261ADF6222D5927D007CF19E /* IntAstros.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = IntAstros.txt; sourceTree = "<group>"; };
+		261ADF6722D5935D007CF19E /* RecMets.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecMets.txt; sourceTree = "<group>"; };
+		261ADF6922D59369007CF19E /* RecOrioles.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecOrioles.txt; sourceTree = "<group>"; };
+		261ADF6B22D59373007CF19E /* RecAthletics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecAthletics.txt; sourceTree = "<group>"; };
+		261ADF6D22D5937E007CF19E /* RecRangers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecRangers.txt; sourceTree = "<group>"; };
+		261ADF6F22D5938A007CF19E /* RecRoyals.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecRoyals.txt; sourceTree = "<group>"; };
+		261ADF7122D59395007CF19E /* RecTwins.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecTwins.txt; sourceTree = "<group>"; };
+		261ADF7522D593AE007CF19E /* RecPadres.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecPadres.txt; sourceTree = "<group>"; };
+		261ADF7722D593BF007CF19E /* RecAstros.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecAstros.txt; sourceTree = "<group>"; };
+		261ADF7922D593C9007CF19E /* RecIndians.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecIndians.txt; sourceTree = "<group>"; };
+		261ADF7B22D593E0007CF19E /* RecWhite Sox.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "RecWhite Sox.txt"; sourceTree = "<group>"; };
+		261ADF7D22D593F6007CF19E /* RecMariners.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecMariners.txt; sourceTree = "<group>"; };
+		261ADF7F22D59405007CF19E /* RecKnights.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecKnights.txt; sourceTree = "<group>"; };
+		261ADF8122D5940E007CF19E /* RecExpos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecExpos.txt; sourceTree = "<group>"; };
+		261ADF8322D59424007CF19E /* RecYankees.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecYankees.txt; sourceTree = "<group>"; };
+		261ADF8522D59431007CF19E /* RecDiamondbacks.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecDiamondbacks.txt; sourceTree = "<group>"; };
+		261ADF8722D5943A007CF19E /* RecPhillies.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecPhillies.txt; sourceTree = "<group>"; };
+		261ADF8922D59445007CF19E /* RecDevil Rays.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "RecDevil Rays.txt"; sourceTree = "<group>"; };
+		261ADF8B22D5945D007CF19E /* RecRockies.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecRockies.txt; sourceTree = "<group>"; };
+		261ADF8D22D594AA007CF19E /* PreMariners.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreMariners.txt; sourceTree = "<group>"; };
+		261ADF8F22D594B9007CF19E /* PreBlack Sox.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PreBlack Sox.txt"; sourceTree = "<group>"; };
+		261ADF9122D594C5007CF19E /* PreCardinals.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreCardinals.txt; sourceTree = "<group>"; };
+		261ADF9322D594D0007CF19E /* PreCubs.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreCubs.txt; sourceTree = "<group>"; };
+		261ADF9522D594E1007CF19E /* PreRockies.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreRockies.txt; sourceTree = "<group>"; };
+		261ADF9722D594F3007CF19E /* PreYankees.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreYankees.txt; sourceTree = "<group>"; };
+		261ADF9922D594FB007CF19E /* PrePirates.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PrePirates.txt; sourceTree = "<group>"; };
+		261ADF9B22D59503007CF19E /* PreAthletics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreAthletics.txt; sourceTree = "<group>"; };
+		261ADF9D22D5950B007CF19E /* PreMarlins.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreMarlins.txt; sourceTree = "<group>"; };
+		261ADF9F22D5951D007CF19E /* PreAngels.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreAngels.txt; sourceTree = "<group>"; };
+		261ADFA122D59526007CF19E /* PreRoyals.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreRoyals.txt; sourceTree = "<group>"; };
+		261ADFA322D5952E007CF19E /* PreGiants.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreGiants.txt; sourceTree = "<group>"; };
+		261ADFA522D6D2C9007CF19E /* HVNABA.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HVNABA.txt; sourceTree = "<group>"; };
+		261ADFA922DD8B0C007CF19E /* Team3HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Team3HomePage.swift; path = ../../Team3HomePage.swift; sourceTree = "<group>"; };
+		261B4F7422ECECCF00C0D6D3 /* TeamsPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsPage2.swift; sourceTree = "<group>"; };
+		261B4F7622ECECD300C0D6D3 /* TeamsPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsPage3.swift; sourceTree = "<group>"; };
+		261B4F7822ECECE100C0D6D3 /* TeamsPage4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsPage4.swift; sourceTree = "<group>"; };
+		261B4F7A22EF97A200C0D6D3 /* Leagues.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Leagues.txt; path = TeamFiles/Leagues.txt; sourceTree = "<group>"; };
+		26A2EC9722E1808800424406 /* IntroCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroCard.swift; sourceTree = "<group>"; };
+		26A2EC9922E203A300424406 /* Team1ContactPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team1ContactPage.swift; sourceTree = "<group>"; };
+		26A2EC9B22E2074100424406 /* Team1Standings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team1Standings.swift; sourceTree = "<group>"; };
+		26A2EC9D22E2157C00424406 /* Team2ContactPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team2ContactPage.swift; sourceTree = "<group>"; };
+		26A2EC9F22E2159000424406 /* Team2Standings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team2Standings.swift; sourceTree = "<group>"; };
+		26A2ECA122E671A400424406 /* MyTeamsFirstAppOpen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamsFirstAppOpen.swift; sourceTree = "<group>"; };
+		26A2ECA322E6B1CF00424406 /* Team4HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team4HomePage.swift; sourceTree = "<group>"; };
+		26A2ECA522E6B1E700424406 /* Team5HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team5HomePage.swift; sourceTree = "<group>"; };
+		26A2ECA722E7F72500424406 /* Leagues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Leagues.swift; path = ../Leagues.swift; sourceTree = "<group>"; };
+		26A2ECA922E805F900424406 /* Team3Standings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team3Standings.swift; sourceTree = "<group>"; };
+		26A2ECAB22E8060600424406 /* Team3ContactPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team3ContactPage.swift; sourceTree = "<group>"; };
+		26A2ECAD22E8061B00424406 /* Team4ContactPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team4ContactPage.swift; sourceTree = "<group>"; };
+		26A2ECAF22E8062D00424406 /* Team4Standings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team4Standings.swift; sourceTree = "<group>"; };
+		26A2ECB122E8064E00424406 /* Team5Standings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team5Standings.swift; sourceTree = "<group>"; };
+		26A2ECB322E8065A00424406 /* Team5ContactPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team5ContactPage.swift; sourceTree = "<group>"; };
+		26BF78B522DEBAF700A6BEE8 /* MySchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySchedule.swift; sourceTree = "<group>"; };
+		26EC364822EA934D00E5099A /* TwiRoyals.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TwiRoyals.txt; sourceTree = "<group>"; };
+		26EC364A22EA94F400E5099A /* TwiBlack Sox.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TwiBlack Sox.txt"; sourceTree = "<group>"; };
+		26EC364C22EA95BC00E5099A /* TwiBrewers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TwiBrewers.txt; sourceTree = "<group>"; };
+		26EC364E22EA969800E5099A /* TwiPhillies.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TwiPhillies.txt; sourceTree = "<group>"; };
+		26EC365022EA979C00E5099A /* TwiTigers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TwiTigers.txt; sourceTree = "<group>"; };
+		26EC365222EA992800E5099A /* TwiAngels.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TwiAngels.txt; sourceTree = "<group>"; };
+		26EC365422EA99D300E5099A /* TwiRockies.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TwiRockies.txt; sourceTree = "<group>"; };
+		26EC365622EA9A0A00E5099A /* TwiTwins.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TwiTwins.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2615C75122D3D16800108FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2615C76B22D3D16900108FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2615C77622D3D16A00108FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2615C74B22D3D16800108FAA = {
+			isa = PBXGroup;
+			children = (
+				2615C75622D3D16800108FAA /* MySportsConnect */,
+				2615C77122D3D16900108FAA /* MySportsConnectTests */,
+				2615C77C22D3D16A00108FAA /* MySportsConnectUITests */,
+				2615C75522D3D16800108FAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2615C75522D3D16800108FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2615C75422D3D16800108FAA /* MySportsConnect.app */,
+				2615C76E22D3D16900108FAA /* MySportsConnectTests.xctest */,
+				2615C77922D3D16A00108FAA /* MySportsConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2615C75622D3D16800108FAA /* MySportsConnect */ = {
+			isa = PBXGroup;
+			children = (
+				261ADF4722D55FBD007CF19E /* Constants.swift */,
+				2615C76422D3D16900108FAA /* Assets.xcassets */,
+				2615C75722D3D16800108FAA /* AppDelegate.swift */,
+				2615C75F22D3D16800108FAA /* GameViewController.swift */,
+				26A2EC9722E1808800424406 /* IntroCard.swift */,
+				26A2ECA122E671A400424406 /* MyTeamsFirstAppOpen.swift */,
+				2615C78B22D3D4E000108FAA /* MyTeams.swift */,
+				26BF78B522DEBAF700A6BEE8 /* MySchedule.swift */,
+				26A2ECA722E7F72500424406 /* Leagues.swift */,
+				261ADF3E22D451BE007CF19E /* Divisions.swift */,
+				261ADF4022D4523D007CF19E /* Teams.swift */,
+				261B4F7422ECECCF00C0D6D3 /* TeamsPage2.swift */,
+				261B4F7622ECECD300C0D6D3 /* TeamsPage3.swift */,
+				261B4F7822ECECE100C0D6D3 /* TeamsPage4.swift */,
+				261ADF4422D55D74007CF19E /* TeamFiles */,
+				261B4F7A22EF97A200C0D6D3 /* Leagues.txt */,
+				261ADF6422D592D6007CF19E /* HVNABA */,
+				2615C76622D3D16900108FAA /* LaunchScreen.storyboard */,
+				2615C76122D3D16800108FAA /* Main.storyboard */,
+				2615C76922D3D16900108FAA /* Info.plist */,
+				26A2ECB522E81CC700424406 /* TempRemoved */,
+			);
+			path = MySportsConnect;
+			sourceTree = "<group>";
+		};
+		2615C77122D3D16900108FAA /* MySportsConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				2615C77222D3D16900108FAA /* MySportsConnectTests.swift */,
+				2615C77422D3D16A00108FAA /* Info.plist */,
+			);
+			path = MySportsConnectTests;
+			sourceTree = "<group>";
+		};
+		2615C77C22D3D16A00108FAA /* MySportsConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2615C77D22D3D16A00108FAA /* MySportsConnectUITests.swift */,
+				2615C77F22D3D16A00108FAA /* Info.plist */,
+			);
+			path = MySportsConnectUITests;
+			sourceTree = "<group>";
+		};
+		261ADF4422D55D74007CF19E /* TeamFiles */ = {
+			isa = PBXGroup;
+			children = (
+				26A2EC9B22E2074100424406 /* Team1Standings.swift */,
+				261ADF4522D55D82007CF19E /* Team1HomePage.swift */,
+				26A2EC9922E203A300424406 /* Team1ContactPage.swift */,
+				26A2EC9F22E2159000424406 /* Team2Standings.swift */,
+				261ADF4A22D59190007CF19E /* Team2HomePage.swift */,
+				26A2EC9D22E2157C00424406 /* Team2ContactPage.swift */,
+				26A2ECA922E805F900424406 /* Team3Standings.swift */,
+				261ADFA922DD8B0C007CF19E /* Team3HomePage.swift */,
+				26A2ECAB22E8060600424406 /* Team3ContactPage.swift */,
+				26A2ECAF22E8062D00424406 /* Team4Standings.swift */,
+				26A2ECA322E6B1CF00424406 /* Team4HomePage.swift */,
+				26A2ECAD22E8061B00424406 /* Team4ContactPage.swift */,
+				26A2ECB122E8064E00424406 /* Team5Standings.swift */,
+				26A2ECA522E6B1E700424406 /* Team5HomePage.swift */,
+				26A2ECB322E8065A00424406 /* Team5ContactPage.swift */,
+			);
+			path = TeamFiles;
+			sourceTree = "<group>";
+		};
+		261ADF4922D59163007CF19E /* Intermediate Data */ = {
+			isa = PBXGroup;
+			children = (
+				261ADF4222D557F8007CF19E /* IntAthletics.txt */,
+				261ADF6222D5927D007CF19E /* IntAstros.txt */,
+				261ADF5622D5920F007CF19E /* IntBlue Jays.txt */,
+				261ADF5422D59203007CF19E /* IntCubs.txt */,
+				261ADF5822D5921D007CF19E /* IntMets.txt */,
+				261ADF6022D59264007CF19E /* IntNationals.txt */,
+				261ADF5222D591F4007CF19E /* IntRed Sox.txt */,
+				261ADF5C22D59245007CF19E /* IntYankees.txt */,
+			);
+			path = "Intermediate Data";
+			sourceTree = "<group>";
+		};
+		261ADF6422D592D6007CF19E /* HVNABA */ = {
+			isa = PBXGroup;
+			children = (
+				261ADFA522D6D2C9007CF19E /* HVNABA.txt */,
+				261ADF6522D592E2007CF19E /* Premier Data */,
+				261ADF4922D59163007CF19E /* Intermediate Data */,
+				261ADF6622D59304007CF19E /* Rec Data */,
+				26EC364722EA828D00E5099A /* Twilight Data */,
+			);
+			path = HVNABA;
+			sourceTree = "<group>";
+		};
+		261ADF6522D592E2007CF19E /* Premier Data */ = {
+			isa = PBXGroup;
+			children = (
+				261ADF9F22D5951D007CF19E /* PreAngels.txt */,
+				261ADF9B22D59503007CF19E /* PreAthletics.txt */,
+				261ADF8F22D594B9007CF19E /* PreBlack Sox.txt */,
+				261ADF9122D594C5007CF19E /* PreCardinals.txt */,
+				261ADF9322D594D0007CF19E /* PreCubs.txt */,
+				261ADFA322D5952E007CF19E /* PreGiants.txt */,
+				261ADF8D22D594AA007CF19E /* PreMariners.txt */,
+				261ADF9D22D5950B007CF19E /* PreMarlins.txt */,
+				261ADF9922D594FB007CF19E /* PrePirates.txt */,
+				261ADF9522D594E1007CF19E /* PreRockies.txt */,
+				261ADFA122D59526007CF19E /* PreRoyals.txt */,
+				261ADF9722D594F3007CF19E /* PreYankees.txt */,
+			);
+			name = "Premier Data";
+			path = "MySportsConnect/Premier Data";
+			sourceTree = SOURCE_ROOT;
+		};
+		261ADF6622D59304007CF19E /* Rec Data */ = {
+			isa = PBXGroup;
+			children = (
+				261ADF7722D593BF007CF19E /* RecAstros.txt */,
+				261ADF6B22D59373007CF19E /* RecAthletics.txt */,
+				261ADF8922D59445007CF19E /* RecDevil Rays.txt */,
+				261ADF8522D59431007CF19E /* RecDiamondbacks.txt */,
+				261ADF8122D5940E007CF19E /* RecExpos.txt */,
+				261ADF7922D593C9007CF19E /* RecIndians.txt */,
+				261ADF7F22D59405007CF19E /* RecKnights.txt */,
+				261ADF7D22D593F6007CF19E /* RecMariners.txt */,
+				261ADF6722D5935D007CF19E /* RecMets.txt */,
+				261ADF6922D59369007CF19E /* RecOrioles.txt */,
+				261ADF7522D593AE007CF19E /* RecPadres.txt */,
+				261ADF8722D5943A007CF19E /* RecPhillies.txt */,
+				261ADF6D22D5937E007CF19E /* RecRangers.txt */,
+				261ADF8B22D5945D007CF19E /* RecRockies.txt */,
+				261ADF6F22D5938A007CF19E /* RecRoyals.txt */,
+				261ADF7122D59395007CF19E /* RecTwins.txt */,
+				261ADF7B22D593E0007CF19E /* RecWhite Sox.txt */,
+				261ADF8322D59424007CF19E /* RecYankees.txt */,
+			);
+			name = "Rec Data";
+			path = "MySportsConnect/Rec Data";
+			sourceTree = SOURCE_ROOT;
+		};
+		26A2ECB522E81CC700424406 /* TempRemoved */ = {
+			isa = PBXGroup;
+			children = (
+				2615C79322D44D3100108FAA /* RecActivitiesScene.swift */,
+				2615C78D22D432C100108FAA /* AddTeams.swift */,
+				2615C78F22D4495600108FAA /* LocalTeamsScene.swift */,
+			);
+			path = TempRemoved;
+			sourceTree = "<group>";
+		};
+		26EC364722EA828D00E5099A /* Twilight Data */ = {
+			isa = PBXGroup;
+			children = (
+				26EC365222EA992800E5099A /* TwiAngels.txt */,
+				26EC364A22EA94F400E5099A /* TwiBlack Sox.txt */,
+				26EC364C22EA95BC00E5099A /* TwiBrewers.txt */,
+				26EC364E22EA969800E5099A /* TwiPhillies.txt */,
+				26EC365422EA99D300E5099A /* TwiRockies.txt */,
+				26EC364822EA934D00E5099A /* TwiRoyals.txt */,
+				26EC365022EA979C00E5099A /* TwiTigers.txt */,
+				26EC365622EA9A0A00E5099A /* TwiTwins.txt */,
+			);
+			name = "Twilight Data";
+			path = "MySportsConnect/HVNABA/Twilight Data";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2615C75322D3D16800108FAA /* MySportsConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2615C78222D3D16A00108FAA /* Build configuration list for PBXNativeTarget "MySportsConnect" */;
+			buildPhases = (
+				2615C75022D3D16800108FAA /* Sources */,
+				2615C75122D3D16800108FAA /* Frameworks */,
+				2615C75222D3D16800108FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySportsConnect;
+			productName = MySportsConnect;
+			productReference = 2615C75422D3D16800108FAA /* MySportsConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2615C76D22D3D16900108FAA /* MySportsConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2615C78522D3D16A00108FAA /* Build configuration list for PBXNativeTarget "MySportsConnectTests" */;
+			buildPhases = (
+				2615C76A22D3D16900108FAA /* Sources */,
+				2615C76B22D3D16900108FAA /* Frameworks */,
+				2615C76C22D3D16900108FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2615C77022D3D16900108FAA /* PBXTargetDependency */,
+			);
+			name = MySportsConnectTests;
+			productName = MySportsConnectTests;
+			productReference = 2615C76E22D3D16900108FAA /* MySportsConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2615C77822D3D16A00108FAA /* MySportsConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2615C78822D3D16A00108FAA /* Build configuration list for PBXNativeTarget "MySportsConnectUITests" */;
+			buildPhases = (
+				2615C77522D3D16A00108FAA /* Sources */,
+				2615C77622D3D16A00108FAA /* Frameworks */,
+				2615C77722D3D16A00108FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2615C77B22D3D16A00108FAA /* PBXTargetDependency */,
+			);
+			name = MySportsConnectUITests;
+			productName = MySportsConnectUITests;
+			productReference = 2615C77922D3D16A00108FAA /* MySportsConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2615C74C22D3D16800108FAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nathan Beal Studios";
+				TargetAttributes = {
+					2615C75322D3D16800108FAA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2615C76D22D3D16900108FAA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2615C75322D3D16800108FAA;
+					};
+					2615C77822D3D16A00108FAA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2615C75322D3D16800108FAA;
+					};
+				};
+			};
+			buildConfigurationList = 2615C74F22D3D16800108FAA /* Build configuration list for PBXProject "MySportsConnect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2615C74B22D3D16800108FAA;
+			productRefGroup = 2615C75522D3D16800108FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2615C75322D3D16800108FAA /* MySportsConnect */,
+				2615C76D22D3D16900108FAA /* MySportsConnectTests */,
+				2615C77822D3D16A00108FAA /* MySportsConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2615C75222D3D16800108FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261ADF7222D59395007CF19E /* RecTwins.txt in Resources */,
+				261ADF9A22D594FB007CF19E /* PrePirates.txt in Resources */,
+				2615C76322D3D16800108FAA /* Main.storyboard in Resources */,
+				261ADF5522D59203007CF19E /* IntCubs.txt in Resources */,
+				261ADF8622D59431007CF19E /* RecDiamondbacks.txt in Resources */,
+				261ADF6122D59264007CF19E /* IntNationals.txt in Resources */,
+				261ADF9022D594B9007CF19E /* PreBlack Sox.txt in Resources */,
+				261ADF9222D594C5007CF19E /* PreCardinals.txt in Resources */,
+				26EC365122EA979C00E5099A /* TwiTigers.txt in Resources */,
+				261ADF8222D5940E007CF19E /* RecExpos.txt in Resources */,
+				261ADF6A22D59369007CF19E /* RecOrioles.txt in Resources */,
+				261ADF9422D594D0007CF19E /* PreCubs.txt in Resources */,
+				261ADF5322D591F4007CF19E /* IntRed Sox.txt in Resources */,
+				261ADF9822D594F3007CF19E /* PreYankees.txt in Resources */,
+				261ADF6322D5927D007CF19E /* IntAstros.txt in Resources */,
+				261B4F7B22EF97A200C0D6D3 /* Leagues.txt in Resources */,
+				261ADF7622D593AE007CF19E /* RecPadres.txt in Resources */,
+				261ADF4322D557F8007CF19E /* IntAthletics.txt in Resources */,
+				261ADF5722D5920F007CF19E /* IntBlue Jays.txt in Resources */,
+				261ADF6C22D59373007CF19E /* RecAthletics.txt in Resources */,
+				261ADFA422D5952E007CF19E /* PreGiants.txt in Resources */,
+				26EC365322EA992800E5099A /* TwiAngels.txt in Resources */,
+				26EC365522EA99D300E5099A /* TwiRockies.txt in Resources */,
+				261ADF9622D594E1007CF19E /* PreRockies.txt in Resources */,
+				261ADF7A22D593C9007CF19E /* RecIndians.txt in Resources */,
+				261ADF6822D5935D007CF19E /* RecMets.txt in Resources */,
+				2615C76522D3D16900108FAA /* Assets.xcassets in Resources */,
+				261ADFA622D6D2C9007CF19E /* HVNABA.txt in Resources */,
+				261ADF8A22D59445007CF19E /* RecDevil Rays.txt in Resources */,
+				2615C76822D3D16900108FAA /* LaunchScreen.storyboard in Resources */,
+				261ADF9C22D59503007CF19E /* PreAthletics.txt in Resources */,
+				261ADF8022D59405007CF19E /* RecKnights.txt in Resources */,
+				261ADF8822D5943A007CF19E /* RecPhillies.txt in Resources */,
+				26EC364F22EA969800E5099A /* TwiPhillies.txt in Resources */,
+				261ADF7E22D593F6007CF19E /* RecMariners.txt in Resources */,
+				261ADF9E22D5950B007CF19E /* PreMarlins.txt in Resources */,
+				261ADF5D22D59245007CF19E /* IntYankees.txt in Resources */,
+				261ADF7C22D593E0007CF19E /* RecWhite Sox.txt in Resources */,
+				261ADF8C22D5945D007CF19E /* RecRockies.txt in Resources */,
+				261ADF7822D593BF007CF19E /* RecAstros.txt in Resources */,
+				261ADF8E22D594AA007CF19E /* PreMariners.txt in Resources */,
+				261ADFA222D59526007CF19E /* PreRoyals.txt in Resources */,
+				261ADF7022D5938A007CF19E /* RecRoyals.txt in Resources */,
+				26EC364D22EA95BC00E5099A /* TwiBrewers.txt in Resources */,
+				261ADFA022D5951D007CF19E /* PreAngels.txt in Resources */,
+				26EC365722EA9A0A00E5099A /* TwiTwins.txt in Resources */,
+				261ADF6E22D5937E007CF19E /* RecRangers.txt in Resources */,
+				26EC364922EA934D00E5099A /* TwiRoyals.txt in Resources */,
+				261ADF8422D59424007CF19E /* RecYankees.txt in Resources */,
+				26EC364B22EA94F400E5099A /* TwiBlack Sox.txt in Resources */,
+				261ADF5922D5921D007CF19E /* IntMets.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2615C76C22D3D16900108FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2615C77722D3D16A00108FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2615C75022D3D16800108FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A2EC9822E1808800424406 /* IntroCard.swift in Sources */,
+				2615C78C22D3D4E000108FAA /* MyTeams.swift in Sources */,
+				2615C79422D44D3100108FAA /* RecActivitiesScene.swift in Sources */,
+				26BF78B622DEBAF700A6BEE8 /* MySchedule.swift in Sources */,
+				26A2ECA222E671A400424406 /* MyTeamsFirstAppOpen.swift in Sources */,
+				261ADF4B22D59190007CF19E /* Team2HomePage.swift in Sources */,
+				261ADFAA22DD8B0C007CF19E /* Team3HomePage.swift in Sources */,
+				2615C79022D4495600108FAA /* LocalTeamsScene.swift in Sources */,
+				261B4F7922ECECE100C0D6D3 /* TeamsPage4.swift in Sources */,
+				2615C78E22D432C100108FAA /* AddTeams.swift in Sources */,
+				261ADF4622D55D82007CF19E /* Team1HomePage.swift in Sources */,
+				26A2EC9C22E2074100424406 /* Team1Standings.swift in Sources */,
+				26A2ECA822E7F72500424406 /* Leagues.swift in Sources */,
+				26A2ECAE22E8061B00424406 /* Team4ContactPage.swift in Sources */,
+				2615C76022D3D16800108FAA /* GameViewController.swift in Sources */,
+				261ADF4122D4523D007CF19E /* Teams.swift in Sources */,
+				26A2ECB422E8065A00424406 /* Team5ContactPage.swift in Sources */,
+				261B4F7522ECECCF00C0D6D3 /* TeamsPage2.swift in Sources */,
+				26A2EC9A22E203A300424406 /* Team1ContactPage.swift in Sources */,
+				26A2ECA022E2159000424406 /* Team2Standings.swift in Sources */,
+				26A2ECA422E6B1CF00424406 /* Team4HomePage.swift in Sources */,
+				26A2ECAC22E8060600424406 /* Team3ContactPage.swift in Sources */,
+				261ADF3F22D451BE007CF19E /* Divisions.swift in Sources */,
+				26A2ECB022E8062D00424406 /* Team4Standings.swift in Sources */,
+				26A2ECB222E8064E00424406 /* Team5Standings.swift in Sources */,
+				2615C75822D3D16800108FAA /* AppDelegate.swift in Sources */,
+				261B4F7722ECECD300C0D6D3 /* TeamsPage3.swift in Sources */,
+				26A2ECAA22E805F900424406 /* Team3Standings.swift in Sources */,
+				26A2ECA622E6B1E700424406 /* Team5HomePage.swift in Sources */,
+				261ADF4822D55FBD007CF19E /* Constants.swift in Sources */,
+				26A2EC9E22E2157C00424406 /* Team2ContactPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2615C76A22D3D16900108FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2615C77322D3D16900108FAA /* MySportsConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2615C77522D3D16A00108FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2615C77E22D3D16A00108FAA /* MySportsConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2615C77022D3D16900108FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2615C75322D3D16800108FAA /* MySportsConnect */;
+			targetProxy = 2615C76F22D3D16900108FAA /* PBXContainerItemProxy */;
+		};
+		2615C77B22D3D16A00108FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2615C75322D3D16800108FAA /* MySportsConnect */;
+			targetProxy = 2615C77A22D3D16A00108FAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2615C76122D3D16800108FAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2615C76222D3D16800108FAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2615C76622D3D16900108FAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2615C76722D3D16900108FAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2615C78022D3D16A00108FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2615C78122D3D16A00108FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2615C78322D3D16A00108FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJ2JMZ83G;
+				INFOPLIST_FILE = MySportsConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NathanBealStudios.MySportsConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2615C78422D3D16A00108FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJ2JMZ83G;
+				INFOPLIST_FILE = MySportsConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NathanBealStudios.MySportsConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2615C78622D3D16A00108FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJ2JMZ83G;
+				INFOPLIST_FILE = MySportsConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NathanBealStudios.MySportsConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySportsConnect.app/MySportsConnect";
+			};
+			name = Debug;
+		};
+		2615C78722D3D16A00108FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJ2JMZ83G;
+				INFOPLIST_FILE = MySportsConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NathanBealStudios.MySportsConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySportsConnect.app/MySportsConnect";
+			};
+			name = Release;
+		};
+		2615C78922D3D16A00108FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJ2JMZ83G;
+				INFOPLIST_FILE = MySportsConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NathanBealStudios.MySportsConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySportsConnect;
+			};
+			name = Debug;
+		};
+		2615C78A22D3D16A00108FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UJ2JMZ83G;
+				INFOPLIST_FILE = MySportsConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NathanBealStudios.MySportsConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySportsConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2615C74F22D3D16800108FAA /* Build configuration list for PBXProject "MySportsConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2615C78022D3D16A00108FAA /* Debug */,
+				2615C78122D3D16A00108FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2615C78222D3D16A00108FAA /* Build configuration list for PBXNativeTarget "MySportsConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2615C78322D3D16A00108FAA /* Debug */,
+				2615C78422D3D16A00108FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2615C78522D3D16A00108FAA /* Build configuration list for PBXNativeTarget "MySportsConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2615C78622D3D16A00108FAA /* Debug */,
+				2615C78722D3D16A00108FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2615C78822D3D16A00108FAA /* Build configuration list for PBXNativeTarget "MySportsConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2615C78922D3D16A00108FAA /* Debug */,
+				2615C78A22D3D16A00108FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2615C74C22D3D16800108FAA /* Project object */;
+}
